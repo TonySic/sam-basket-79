@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto', serif;
+}
+
+/********** NAVBAR **********/
+
+.navbar {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    background-color: #a71e25;
+    
+}
+
+a.nav-link {
+    color: white
+}
+
+.nav-link :hover {
+    color: white;
+}
+
+/********** PRESENTATION **********/
+
+#presentation {
+    text-align: center;
+    font-family: 'Roboto Slab';
+    color: #a71e25;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#presentation img {
+    padding: 20px;
+}
+
+/********** BIENTOT **********/
+
+#bientot {
+    background-position: 100vh;
+    background: url(./images/ballon-basket.png);
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    padding-bottom: 20px;
+}
+
+#bientot h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:black
+}
+
+#bientot p {
+    background: #fff;
+    padding: 40px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#bientot p:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: #a71e25;
+    font-weight: bold;
+}
+
+/********** CAROUSEL **********/
+
+#carousel {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    padding-bottom: 20px;
+}
+
+#carousel-item {
+    width: 50%;
+    height: 50%;
+}
+
+#carousel img {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+#carousel h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/********** PARTENAIRES **********/
+
+#partenaires {
+    background-color: #a71e25;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    padding-bottom: 20px;
+}
+
+#partenaires h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#partenaires img {
+    background: #fff;
+    width: 100%;
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#partenaires img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+/********** CONTACT **********/
+
+#contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    padding-bottom: 20px;
+}
+
+#contact i {
+    color: #a71e25;
+}
+
+#contact h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#contact i:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    color: white;
+}
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width:768px){
+    #partenaires img{
+        width: 40%;
+        margin: 10px;
+    }
+}
